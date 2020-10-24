@@ -21,8 +21,7 @@ if M==2*floor(M/2)
  Xflp(N-(M/2+wnoM/2)+2:N-(M/2-wnoM/2+1)+2) = zeros(1,wnoM);
  else
  Xflp(M/2-(wnoM-1)/2+1:M/2+(wnoM-1)/2-1) = zeros(1,wnoM);
- Xflp(N-(M/2+(wnoM-1)/2-1)+2:N-(M/2-(wnoM-1)/2+1)+2) =
-zeros(1,wnoM);
+ Xflp(N-(M/2+(wnoM-1)/2-1)+2:N-(M/2-(wnoM-1)/2+1)+2) = zeros(1,wnoM);
  end
 else
  if wnoM==2*floor(wnoM/2)
@@ -30,8 +29,7 @@ else
  Xflp(N-((M+1)/2+wnoM/2)+2:N-((M+1)/2-wnoM/2+1)+2) = zeros(1,wnoM);
  else
  Xflp((M+1)/2-(wnoM-1)/2+1:(M+1)/2+(wnoM-1)/2-1) = zeros(1,wnoM);
- Xflp(N-((M+1)/2+(wnoM-1)/2-1)+2:N-((M+1)/2-(wnoM-1)/2+1)+2) =
-zeros(1,wnoM);
+ Xflp(N-((M+1)/2+(wnoM-1)/2-1)+2:N-((M+1)/2-(wnoM-1)/2+1)+2) = zeros(1,wnoM);
  end
 end
 chnlout=real(ifft(Xflp));
