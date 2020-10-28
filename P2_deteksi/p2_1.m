@@ -1,8 +1,8 @@
-%% Matched filter sebagai penerima optimal
+%% P2.1. Matched filter sebagai penerima optimal
 clear all;
 close all;
 
-%% 1.1. 
+%% 2.1.1. 
 global Fd Fs;
 Fd = 1000; Fs = 100000; T = 1/Fd;
 s = modul(1, 'unipolar_nrz');
@@ -16,7 +16,7 @@ subplot(312), scope(mf, 'one-shot', 2*T);
 title('Filter')
 subplot(313), scope(afilter(s,mf), 'one-shot', 2*T);
 title('Output matched filter')
-%% 1.2.
+%% 2.1.2.
 s = modul(1, 'manchester');
 mf = matched('manchester');
 
@@ -28,10 +28,10 @@ title('Filter')
 subplot(313), scope(afilter(s,mf), 'one-shot', 2*T);
 title('Output matched filter')
 
-%% 1.3.
+%% 2.1.3.
 s = modul([1 0 0 1 0 1 1], 'bipolar_rz');
 
-figure('Name','1.3.')
+figure('Name','2.1.3.',)
 clf, subplot(211), scope(s, 'one-shot', 7*T);
 title('Sinyal RZ bipolar');
 
