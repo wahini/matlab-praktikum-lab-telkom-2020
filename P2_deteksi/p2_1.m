@@ -34,11 +34,15 @@ s = modul([1 0 0 1 0 1 1], 'bipolar_rz');
 figure('Name','P2-1.3. Bipolar NRZ','NumberTitle','off');
 clf, subplot(211), scope(s, 'one-shot', 7*T);
 title('Sinyal RZ bipolar');
+xlabel('Waktu (detik)')
+ylabel('Amplitudo')
 
 y = afilter(s, matched('bipolar_rz'));
 subplot(212), scope(y, 'one_shot', 7*T);
+ylabel('Amplitudo')
 
 t = 0:1/Fs:(7*T-1/Fs);
 plotyy(t, s, t, y(1:length(t)));
 title('Sinyal RZ bipolar dan output matched filter');
-
+xlabel('Waktu (detik)')
+ylabel('Amplitudo')
