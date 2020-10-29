@@ -32,7 +32,7 @@ title('Output matched filter')
 s = modul([1 0 0 1 0 1 1], 'bipolar_rz');
 
 figure('Name','P2-1.3. Bipolar NRZ','NumberTitle','off');
-clf, subplot(211), scope(s, 'one-shot', 7*T);
+subplot(211), scope(s, 'one-shot', 7*T);
 title('Sinyal RZ bipolar');
 xlabel('Waktu (detik)')
 ylabel('Amplitudo')

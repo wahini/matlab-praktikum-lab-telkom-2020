@@ -21,8 +21,6 @@ y = afilter(x, matched('bipolar_nrz'));
 subplot(313), scope(y, 'one-shot', 10*T);
 title('Matched filter')
 
-
-
 %% P2.2.2.
 Fs = 10000;
 b = round(rand(1,10000));
@@ -62,6 +60,15 @@ title('BER vs waktu sampling');
 %% P2.2.4
 y = transmit(b, 'bipolar_nrz', 0.5*1e-4, 1500); %bw=1500 1000 500 350
 ber40 = detect(y, 0, T, b);
+y = afilter(x, matched('bipolar_nrz')); 
+
+figure('Name','P2 2.2. Plot Matched Filter','NumberTitle','off')
+scope(y(1:500*Fs/Fd), 'continuous', 2*T);
+title('Plot Matched Filter Bipolar NRZ 300 bit pertama');
+figure('Name','P2 2.4. Plot Matched Filter','NumberTitle','off')
+scope(y(1:300*Fs/Fd), 'continuous', 2*T);
+title('Plot Matched Filter Bipolar NRZ 500 bit pertama');
+
 y = transmit(b, 'bipolar_nrz', 0.5*1e-4, 1000); %bw=1500 1000 500 3500
 ber41 = detect(y, 0, T, b);
 y = transmit(b, 'bipolar_nrz', 0.5*1e-4, 500); %bw=1500 1000 500 350
