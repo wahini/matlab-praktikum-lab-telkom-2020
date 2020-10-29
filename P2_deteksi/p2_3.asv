@@ -1,0 +1,4 @@
+%% P2. 3. Unjuk kerja dari penerima optimal terhadap ISI
+
+y = transmit(b, ’bipolar_nrz’, 0, 550);
+>>detect(y, <threshold>, <sampling_time>, b, <delay>)
