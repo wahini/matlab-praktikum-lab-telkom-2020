@@ -14,7 +14,7 @@ s = modul(b, 'bipolar_nrz');
 [Ss,f] = psd(modul(b, 'bipolar_nrz'), 10000, Fs,'mean');
 
 % Figure 2.1. Bipolar NRZ - Nilai bandwidth yang diperlukan 1000 Hz
-figure('Name','Figure 2.1. Bipolar NRZ','NumberTitle','off')
+figure('Name','P1 2.1. Bipolar NRZ','NumberTitle','off')
 plot(f, 10*log10(Ss));
 title('Bipolar NRZ - Nilai bandwidth yang diperlukan 1000 Hz');
 
@@ -22,7 +22,7 @@ title('Bipolar NRZ - Nilai bandwidth yang diperlukan 1000 Hz');
 
 %% Percobaan 2.2. 
 % Figure 2.2. Efek AWGN
-figure('Name','Figure 2.2. Efek AWGN','NumberTitle','off')
+figure('Name','P1 2.2. Efek AWGN','NumberTitle','off')
 x = bbchannel(s,1,0.01,4900);
 subplot(2,1,1), scope(s,'one-shot',0.01); title('Sinyal dikirim');
 subplot(2,1,2), scope(x,'one-shot',0.01); title('Terkena AWGN');
@@ -31,7 +31,7 @@ subplot(2,1,2), scope(x,'one-shot',0.01); title('Terkena AWGN');
 
 %% Percobaan 2.3.
 % Figure 2.3.1. Efek Daya Derau
-figure('Name','Figure 2.3.1. Efek Daya Derau','NumberTitle','off')
+figure('Name','P1 2.3.1. Efek Daya Derau','NumberTitle','off')
 subplot(3,2,1); 
 scope(s,'one-shot',0.01);title('Sinyal asli');
 
@@ -57,7 +57,7 @@ b = round(rand(1,1000));
 s = modul(b,'bipolar_nrz');
 
 % Figure 2.3.2. PSD dari setiap Efek Daya Derau
-figure('Name','Percobaan 2.3.2. PSD dari setiap Efek Daya Derau','NumberTitle','off')
+figure('Name','P1 2.3.2. PSD dari setiap Efek Daya Derau','NumberTitle','off')
 [Ss,f] = psd(s,length(s),Fs,'mean'); clf, subplot(221), plot(f,Ss), a = axis;title('PSD dari sinyal asli');
 [Sx,f] = psd(bbchannel(s,1,0.01,4900),length(s),Fs,'mean');
 subplot(222), plot(f,Sx); axis(a);title('PSD dari sinyal terima; daya derau =0.01 W');
@@ -72,7 +72,7 @@ b = [0 1 0 0 1 0 0 1 1 0];
 s = modul(b, 'bipolar_nrz');
 
 % Figure 2.5. Low-pass ideal
-figure('Name','Percobaan 2.4. Low-pass ideal','NumberTitle','off');
+figure('Name','P1 2.4. Low-pass ideal','NumberTitle','off');
 subplot(611), scope(s,'one-shot', 10*T); title('Sinyal asli');
 subplot(612), scope(bbchannel(s,1,0,4900),'one-shot',10*T);
 title('Bandwidth 4900');

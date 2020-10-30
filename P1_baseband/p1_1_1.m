@@ -16,7 +16,7 @@ s3 = modul(b, 'manchester', Fd, Fs);
 s4 = modul(b, 'ami', Fd, Fs);
 s5 = modul(b, 'bipolar_nyquist', Fd, Fs);
 %% Figure 1. Pengkodean Kanal
-figure('Name','Pengkodean Kanal')
+figure('Name','P 1.1. Pengkodean Kanal','NumberTitle','off')
 
 subplot(3,2,1)
 scope(s0, 'one-shot', 10*T);
