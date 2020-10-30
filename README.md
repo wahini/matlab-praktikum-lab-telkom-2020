@@ -1,5 +1,6 @@
 # MK Lab Telekomunikasi 2020
 Dokumentasi ini digunakan untuk melampirkan seluruh kegiatan praktikum 
+Praktikum menggunakan MATLAB sebagai simulasi
 
 # Daftar Praktikum 
 1. [Praktikum 1 Baseband](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P1_baseband)
