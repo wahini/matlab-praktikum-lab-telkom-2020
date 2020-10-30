@@ -1,31 +1,33 @@
-# MK Lab Telekomunikasi 2020
+# MK Lab Telekomunikasi 2020 
  Dokumentasi ini digunakan untuk melampirkan seluruh kegiatan praktikum  
- Praktikum menggunakan MATLAB sebagai simulasi
+ Praktikum menggunakan MATLAB sebagai simulasi :computer:
  
   documented by: **Bhadrika E.A. 0711740000120**
 
-## Toolbox
+## :computer: Toolbox 
 1. [Digital Communication Toolbox](https://www.mathworks.com/solutions/dsp.html?s_tid=srchtitle)
 2. [Signal Processing Toolbox](https://www.mathworks.com/products/signal.html?s_tid=srchtitle)
 3. [Communication Toolbox](https://www.mathworks.com/products/communications.html)
 
-## Daftar Praktikum 
+## :beginner: Daftar Praktikum 
 1. [Praktikum 1 Baseband](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P1_baseband)
 2. [Praktikum 2 Deteksi](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P2_deteksi)
 3. [Praktikum 3 -on going-](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main)
 4. [Praktikum 4 -on going-](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main)
 
-## menggunakan MATLAB v2020b
-1. tidak support `psd.m` di lib karena matlab menghapus. bisa menggunakan `pwelch` atau overwrite `psd.m` di direktorimu
-   atau overwrite [`psd2014.m`](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/blob/main/_listing_function/psd2014.m) di `psd.m` mu
-2. psd.m support di v2014 kebawah
+## :computer: menggunakan MATLAB v2020b 
+:arrow_right: jika menggunakan MATLAB v2014 dan kebawah, abaikan step ini
+1. tidak support `psd.m` karena di :open_file_folder: toolbox matlab menghapus fungsi tersebut. 
+   - bisa menggunakan `pwelch` atau 
+   - atau ganti dengan [`psd2014.m`](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/blob/main/_listing_function/psd2014.m) di `psd.m` mu di :open_file_folder: `MATLAB\R2020b\toolbox\signal\signal`
+2. pastikan direktor `psd.m` di MATLAB sudah benar dan nama tetap `psd.m` agar fungsi tetap berjalan
 
-## Kendala Praktikum
+## :warning: Kendala Praktikum
 - **Praktikum 1** butuh `psd` jika bisa `pwelch` silakan dicoba
 - **Praktikum 2** Percobaan 3 `transmit` tidak tersedia argument untuk `delay` maupun `roll-off` 
 - **Praktikum 2** Percobaan 4 `duodetect` belum tersedia 
 
-## Contact me
+## :octocat: Contact me
 - :e-mail: bhadrika.17071@mhs.its.ac.id
 - :e-mail: vito.atmo@gmail.com
 - :discord: ventus#1293
