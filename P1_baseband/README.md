@@ -11,6 +11,7 @@ arsip pengerjaan laporan praktikum docs :page_facing_up: [**disini**](https://do
 - **Percobaan 1** Kode-kode saluran untuk pensinyalan biner pada kanal baseband
     - [x] 1.1.
     - [x] 1.2.
+    - [x] 1.3.
 - **Percobaan 2** Mensimulasikan kanal baseband dengan derau
     - [x] 2.1.
     - [x] 2.2.
