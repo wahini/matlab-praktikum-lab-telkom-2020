@@ -1,7 +1,7 @@
 # MK Lab Telekomunikasi 2020 - Bu Devi
 
 # Daftar Praktikum 
-1. [Praktikum 1 Baseband ([https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P1_baseband])]
+1. [Praktikum 1 Baseband] (https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P1_baseband)
 
 
 ## menggunakan MATLAB v2020b
