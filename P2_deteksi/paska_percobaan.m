@@ -18,3 +18,9 @@ title({'Sinyal Unipolar NRZ','[1 0 1 1 0]'});
 subplot(212), scope(afilter(s,mf), 'one-shot', 5*T);
 xlabel('Waktu (detik)'); ylabel('Amplitudo')
 title('Matched filter')
+
+%% Soal No. 3
+syms x
+fplot(erfc(x),[-5 5])
+title('Plot ERFC')
+grid on
