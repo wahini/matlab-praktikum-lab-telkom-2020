@@ -1,7 +1,7 @@
 # MK Lab Telekomunikasi 2020 - Bu Devi
-
-# Praktikum 
-1. [Praktikum 1 Baseband] (https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P1_baseband)
+```markdown
+# Daftar Praktikum 
+1. [Praktikum 1 Baseband (https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P1_baseband)]
 
 
 ## menggunakan MATLAB v2020b
@@ -26,4 +26,5 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+```
 ```
