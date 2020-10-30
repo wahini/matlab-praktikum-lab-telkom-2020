@@ -4,7 +4,7 @@
  
   documented by: **Bhadrika E.A. 0711740000120**
 
-## :beginner: Daftar Praktikum 
+## :book: Daftar Praktikum 
 1. [Praktikum 1 Baseband](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P1_baseband)
 2. [Praktikum 2 Deteksi](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P2_deteksi)
 3. [Praktikum 3 -on going-](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main)
