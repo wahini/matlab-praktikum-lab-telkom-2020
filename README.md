@@ -2,7 +2,7 @@
  Dokumentasi ini digunakan untuk melampirkan seluruh kegiatan praktikum  
  Praktikum menggunakan MATLAB sebagai simulasi
  
-  documented by: vito atmo
+  documented by: Bhadrika E.A. 0711740000120
 
 ## Toolbox
 1. [Digital Communication Toolbox](https://www.mathworks.com/solutions/dsp.html?s_tid=srchtitle)
@@ -16,7 +16,7 @@
 4. [Praktikum 4 -on going-](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main)
 
 ## menggunakan MATLAB v2020b
-1. tidak support `psd.m` di lib karena matlab menghapus. bisa menggunakan `pwelch` atau overwrite `psdm.m` di direktorimu
+1. tidak support `psd.m` di lib karena matlab menghapus. bisa menggunakan `pwelch` atau overwrite `psd.m` di direktorimu
    atau overwrite [`psd2014.m`](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/blob/main/_listing_function/psd2014.m) di `psd.m` mu
 2. psd.m support di v2014 kebawah
 
