@@ -2,7 +2,7 @@
  Dokumentasi ini digunakan untuk melampirkan seluruh kegiatan praktikum  
  Praktikum menggunakan MATLAB sebagai simulasi
  
-  documented by: Bhadrika E.A. 0711740000120
+  documented by: **Bhadrika E.A. 0711740000120**
 
 ## Toolbox
 1. [Digital Communication Toolbox](https://www.mathworks.com/solutions/dsp.html?s_tid=srchtitle)
