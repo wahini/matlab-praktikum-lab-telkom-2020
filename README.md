@@ -1,3 +1,5 @@
+![banner](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/blob/main/img/banner-lab-telkom.png)
+
 # MK Lab Telekomunikasi 2020 
  Dokumentasi ini digunakan untuk melampirkan seluruh kegiatan praktikum  
  Praktikum menggunakan MATLAB sebagai simulasi :computer:
@@ -32,5 +34,3 @@ toolbox yang dibutuhkan agar bisa dijalankan
 - :e-mail: bhadrika.17071@mhs.its.ac.id
 - :e-mail: vito.atmo@gmail.com
 - :discord: ventus#1293
-
-
