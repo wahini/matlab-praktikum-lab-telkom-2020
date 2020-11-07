@@ -30,7 +30,7 @@ function [Pxx, Pxxc, f] = psd(varargin)
 
 narginchk(1,7)
 
-warning(message('signal:psd:PSDisObsolete'));
+% warning(message('signal:psd:PSDisObsolete'));
 
 x = varargin{1};
 [msg,nfft,Fs,window,noverlap,p,dflag,msgobj]=psdchk(varargin(2:end),x);
