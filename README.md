@@ -23,6 +23,7 @@ toolbox yang dibutuhkan agar bisa dijalankan
 1. tidak support `psd.m` karena di :open_file_folder: toolbox matlab menghapus fungsi tersebut. 
    - bisa menggunakan `pwelch` atau 
    - atau ganti dengan [`psd2014.m`](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/blob/main/_listing_function/psd2014.m) di `psd.m` mu di :open_file_folder: `MATLAB\R2020b\toolbox\signal\signal`
+   - beri komentar atau `%` untuk warning, karena warning menghentikan program disitu
 2. pastikan direktor `psd.m` di MATLAB sudah benar dan nama tetap `psd.m` agar fungsi tetap berjalan
 3. :beginner:[`tutorial mengganti`](https://youtu.be/vmDp2jOB13U)
 
