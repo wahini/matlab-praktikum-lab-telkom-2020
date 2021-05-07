@@ -12,8 +12,8 @@
 3. [Praktikum 3 Bandpass](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P3_bandpass)
 4. [Praktikum 4 Render Antena](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/P5_antena)
 
-## Reminder
-[listing function](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/_listing_function) merupakan function tamabahan diluar dari Toolbox, diberikan oleh Bu Devu, pastikan sudah di `Add to Path` pada Matlab/Matlab Online agar dapat menjalankan fungsi dalam setiap program
+## :warning: Reminder
+[listing function](https://github.com/vitoatmo/matlab-praktikum-lab-telkom-2020/tree/main/_listing_function) merupakan function tamabahan diluar dari Toolbox, diberikan oleh Bu Devy, pastikan sudah di `Add to Path` pada Matlab/Matlab Online agar dapat menjalankan fungsi dalam setiap program
 
 ## :computer: Toolbox 
 toolbox yang dibutuhkan agar bisa dijalankan
